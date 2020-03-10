@@ -110,17 +110,206 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named NomProjet
+# Target rules for targets named CLionSFML
 
 # Build rule for target.
-NomProjet: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 NomProjet
-.PHONY : NomProjet
+CLionSFML: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 CLionSFML
+.PHONY : CLionSFML
 
 # fast build rule for target.
-NomProjet/fast:
-	$(MAKE) -f CMakeFiles\NomProjet.dir\build.make CMakeFiles/NomProjet.dir/build
-.PHONY : NomProjet/fast
+CLionSFML/fast:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/build
+.PHONY : CLionSFML/fast
+
+Bob.obj: Bob.cpp.obj
+
+.PHONY : Bob.obj
+
+# target to build an object file
+Bob.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Bob.cpp.obj
+.PHONY : Bob.cpp.obj
+
+Bob.i: Bob.cpp.i
+
+.PHONY : Bob.i
+
+# target to preprocess a source file
+Bob.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Bob.cpp.i
+.PHONY : Bob.cpp.i
+
+Bob.s: Bob.cpp.s
+
+.PHONY : Bob.s
+
+# target to generate assembly for a file
+Bob.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Bob.cpp.s
+.PHONY : Bob.cpp.s
+
+Draw.obj: Draw.cpp.obj
+
+.PHONY : Draw.obj
+
+# target to build an object file
+Draw.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Draw.cpp.obj
+.PHONY : Draw.cpp.obj
+
+Draw.i: Draw.cpp.i
+
+.PHONY : Draw.i
+
+# target to preprocess a source file
+Draw.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Draw.cpp.i
+.PHONY : Draw.cpp.i
+
+Draw.s: Draw.cpp.s
+
+.PHONY : Draw.s
+
+# target to generate assembly for a file
+Draw.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Draw.cpp.s
+.PHONY : Draw.cpp.s
+
+Engine.obj: Engine.cpp.obj
+
+.PHONY : Engine.obj
+
+# target to build an object file
+Engine.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine.cpp.obj
+.PHONY : Engine.cpp.obj
+
+Engine.i: Engine.cpp.i
+
+.PHONY : Engine.i
+
+# target to preprocess a source file
+Engine.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine.cpp.i
+.PHONY : Engine.cpp.i
+
+Engine.s: Engine.cpp.s
+
+.PHONY : Engine.s
+
+# target to generate assembly for a file
+Engine.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine.cpp.s
+.PHONY : Engine.cpp.s
+
+FallingObject.obj: FallingObject.cpp.obj
+
+.PHONY : FallingObject.obj
+
+# target to build an object file
+FallingObject.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject.cpp.obj
+.PHONY : FallingObject.cpp.obj
+
+FallingObject.i: FallingObject.cpp.i
+
+.PHONY : FallingObject.i
+
+# target to preprocess a source file
+FallingObject.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject.cpp.i
+.PHONY : FallingObject.cpp.i
+
+FallingObject.s: FallingObject.cpp.s
+
+.PHONY : FallingObject.s
+
+# target to generate assembly for a file
+FallingObject.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject.cpp.s
+.PHONY : FallingObject.cpp.s
+
+Input.obj: Input.cpp.obj
+
+.PHONY : Input.obj
+
+# target to build an object file
+Input.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Input.cpp.obj
+.PHONY : Input.cpp.obj
+
+Input.i: Input.cpp.i
+
+.PHONY : Input.i
+
+# target to preprocess a source file
+Input.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Input.cpp.i
+.PHONY : Input.cpp.i
+
+Input.s: Input.cpp.s
+
+.PHONY : Input.s
+
+# target to generate assembly for a file
+Input.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Input.cpp.s
+.PHONY : Input.cpp.s
+
+Stone.obj: Stone.cpp.obj
+
+.PHONY : Stone.obj
+
+# target to build an object file
+Stone.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Stone.cpp.obj
+.PHONY : Stone.cpp.obj
+
+Stone.i: Stone.cpp.i
+
+.PHONY : Stone.i
+
+# target to preprocess a source file
+Stone.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Stone.cpp.i
+.PHONY : Stone.cpp.i
+
+Stone.s: Stone.cpp.s
+
+.PHONY : Stone.s
+
+# target to generate assembly for a file
+Stone.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Stone.cpp.s
+.PHONY : Stone.cpp.s
+
+Update.obj: Update.cpp.obj
+
+.PHONY : Update.obj
+
+# target to build an object file
+Update.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Update.cpp.obj
+.PHONY : Update.cpp.obj
+
+Update.i: Update.cpp.i
+
+.PHONY : Update.i
+
+# target to preprocess a source file
+Update.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Update.cpp.i
+.PHONY : Update.cpp.i
+
+Update.s: Update.cpp.s
+
+.PHONY : Update.s
+
+# target to generate assembly for a file
+Update.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Update.cpp.s
+.PHONY : Update.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -128,7 +317,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\NomProjet.dir\build.make CMakeFiles/NomProjet.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +326,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\NomProjet.dir\build.make CMakeFiles/NomProjet.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +335,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\NomProjet.dir\build.make CMakeFiles/NomProjet.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,9 +344,30 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... NomProjet
 	@echo ... edit_cache
+	@echo ... CLionSFML
 	@echo ... rebuild_cache
+	@echo ... Bob.obj
+	@echo ... Bob.i
+	@echo ... Bob.s
+	@echo ... Draw.obj
+	@echo ... Draw.i
+	@echo ... Draw.s
+	@echo ... Engine.obj
+	@echo ... Engine.i
+	@echo ... Engine.s
+	@echo ... FallingObject.obj
+	@echo ... FallingObject.i
+	@echo ... FallingObject.s
+	@echo ... Input.obj
+	@echo ... Input.i
+	@echo ... Input.s
+	@echo ... Stone.obj
+	@echo ... Stone.i
+	@echo ... Stone.s
+	@echo ... Update.obj
+	@echo ... Update.i
+	@echo ... Update.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

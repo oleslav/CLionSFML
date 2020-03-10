@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.7)
-set(PROJECT_NAME NomProjet)
+set(PROJECT_NAME CLionSFML)
 
 project(${PROJECT_NAME})
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -static")
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Bob.cpp Bob.h Engine.cpp Engine.h Input.cpp Update.cpp Draw.cpp FallingObject.cpp FallingObject.h Stone.cpp Stone.h)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Release")
     add_executable(${PROJECT_NAME} WIN32 ${SOURCE_FILES})

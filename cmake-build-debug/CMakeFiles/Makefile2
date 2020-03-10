@@ -52,12 +52,12 @@ CMAKE_BINARY_DIR = "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/NomProjet.dir/all
+all: CMakeFiles/CLionSFML.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/NomProjet.dir/clean
+clean: CMakeFiles/CLionSFML.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/NomProjet.dir
+# Target rules for target CMakeFiles/CLionSFML.dir
 
 # All Build rule for target.
-CMakeFiles/NomProjet.dir/all:
-	$(MAKE) -f CMakeFiles\NomProjet.dir\build.make CMakeFiles/NomProjet.dir/depend
-	$(MAKE) -f CMakeFiles\NomProjet.dir\build.make CMakeFiles/NomProjet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target NomProjet"
-.PHONY : CMakeFiles/NomProjet.dir/all
+CMakeFiles/CLionSFML.dir/all:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/depend
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target CLionSFML"
+.PHONY : CMakeFiles/CLionSFML.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/NomProjet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/NomProjet.dir/all
+CMakeFiles/CLionSFML.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" 9
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CLionSFML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/NomProjet.dir/rule
+.PHONY : CMakeFiles/CLionSFML.dir/rule
 
 # Convenience name for target.
-NomProjet: CMakeFiles/NomProjet.dir/rule
+CLionSFML: CMakeFiles/CLionSFML.dir/rule
 
-.PHONY : NomProjet
+.PHONY : CLionSFML
 
 # clean rule for target.
-CMakeFiles/NomProjet.dir/clean:
-	$(MAKE) -f CMakeFiles\NomProjet.dir\build.make CMakeFiles/NomProjet.dir/clean
-.PHONY : CMakeFiles/NomProjet.dir/clean
+CMakeFiles/CLionSFML.dir/clean:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/clean
+.PHONY : CMakeFiles/CLionSFML.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

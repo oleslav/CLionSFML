@@ -1,5 +1,5 @@
 "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML"
-CMake Warning (dev) at CMakeLists.txt:22 (find_package):
+CMake Warning (dev) at CMakeLists.txt:21 (find_package):
   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
   command to set the policy and suppress this warning.
