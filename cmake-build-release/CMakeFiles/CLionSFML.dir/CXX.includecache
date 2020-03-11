@@ -640,57 +640,47 @@ SFML/Config.hpp
 
 C:/Libraries/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Bob.cpp
-Bob.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Bob.h
-Engine.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
-
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Bob.h
-SFML/Graphics.hpp
--
-
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Draw.cpp
 Engine.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
 
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.cpp
-Engine.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
-
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
 SFML/Graphics.hpp
 -
-Bob.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Bob.h
+NPC.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC.h
 FallingObject.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.h
-
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.cpp
-FallingObject.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.h
-Engine.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
+FallingObject/Stone.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Stone.h
+FallingObject/Coin.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Coin.h
+FallingObject/Apple.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Apple.h
 
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.h
 SFML/Graphics.hpp
 -
 
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Input.cpp
-Engine.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Apple.h
+SFML/Graphics.hpp
+-
+../FallingObject.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.h
 
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Stone.cpp
-Stone.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Stone.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Coin.h
+SFML/Graphics.hpp
+-
+../FallingObject.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.h
 
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Stone.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Stone.h
+SFML/Graphics.hpp
+-
+../FallingObject.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.h
 
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Update.cpp
-Engine.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
-
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/main.cpp
-Engine.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC.h
+SFML/Graphics.hpp
+-
 

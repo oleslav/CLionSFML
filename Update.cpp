@@ -4,8 +4,9 @@ using namespace sf;
 
 void Engine::update(float dtAsSeconds)
 {
-    m_Bob.update(dtAsSeconds);
-    if(isFallingObjectExist){
-        isFallingObjectExist = m_fallingObject.update(dtAsSeconds);
+    npc.update(dtAsSeconds);
+    fallingObject[0].update(dtAsSeconds);
+    if(fallingObject[0].collision(npc.getPosition())){
+        score++;
     }
 }

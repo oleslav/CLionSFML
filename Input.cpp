@@ -1,26 +1,19 @@
 #include "Engine.h"
+#include "iostream"
 
 void Engine::input() {
-    // Handle the player quitting
     if (Keyboard::isKeyPressed(Keyboard::Escape)) {
-        m_Window.close();
+        std::cout << score;
+        Window.close();
     }
-
-    // Handle the player moving
     if (Keyboard::isKeyPressed(Keyboard::Left)) {
-        m_Bob.moveLeft();
+        npc.moveLeft();
     } else {
-        m_Bob.stopLeft();
+        npc.stopLeft();
     }
-
     if (Keyboard::isKeyPressed(Keyboard::Right)) {
-        m_Bob.moveRight();
+        npc.moveRight();
     } else {
-        m_Bob.stopRight();
+        npc.stopRight();
     }
-
-//    if (Keyboard::isKeyPressed(Keyboard::Right)) {
-//        m_Bob.
-//    }
-
 }

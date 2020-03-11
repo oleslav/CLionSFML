@@ -70,19 +70,19 @@ CMakeFiles/CLionSFML.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\main.cpp" -o CMakeFiles\CLionSFML.dir\main.cpp.s
 
-CMakeFiles/CLionSFML.dir/Bob.cpp.obj: CMakeFiles/CLionSFML.dir/flags.make
-CMakeFiles/CLionSFML.dir/Bob.cpp.obj: CMakeFiles/CLionSFML.dir/includes_CXX.rsp
-CMakeFiles/CLionSFML.dir/Bob.cpp.obj: ../Bob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLionSFML.dir/Bob.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionSFML.dir\Bob.cpp.obj -c "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Bob.cpp"
+CMakeFiles/CLionSFML.dir/NPC.cpp.obj: CMakeFiles/CLionSFML.dir/flags.make
+CMakeFiles/CLionSFML.dir/NPC.cpp.obj: CMakeFiles/CLionSFML.dir/includes_CXX.rsp
+CMakeFiles/CLionSFML.dir/NPC.cpp.obj: ../NPC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLionSFML.dir/NPC.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionSFML.dir\NPC.cpp.obj -c "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\NPC.cpp"
 
-CMakeFiles/CLionSFML.dir/Bob.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionSFML.dir/Bob.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Bob.cpp" > CMakeFiles\CLionSFML.dir\Bob.cpp.i
+CMakeFiles/CLionSFML.dir/NPC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionSFML.dir/NPC.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\NPC.cpp" > CMakeFiles\CLionSFML.dir\NPC.cpp.i
 
-CMakeFiles/CLionSFML.dir/Bob.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/Bob.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Bob.cpp" -o CMakeFiles\CLionSFML.dir\Bob.cpp.s
+CMakeFiles/CLionSFML.dir/NPC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/NPC.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\NPC.cpp" -o CMakeFiles\CLionSFML.dir\NPC.cpp.s
 
 CMakeFiles/CLionSFML.dir/Engine.cpp.obj: CMakeFiles/CLionSFML.dir/flags.make
 CMakeFiles/CLionSFML.dir/Engine.cpp.obj: CMakeFiles/CLionSFML.dir/includes_CXX.rsp
@@ -154,42 +154,74 @@ CMakeFiles/CLionSFML.dir/FallingObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/FallingObject.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject.cpp" -o CMakeFiles\CLionSFML.dir\FallingObject.cpp.s
 
-CMakeFiles/CLionSFML.dir/Stone.cpp.obj: CMakeFiles/CLionSFML.dir/flags.make
-CMakeFiles/CLionSFML.dir/Stone.cpp.obj: CMakeFiles/CLionSFML.dir/includes_CXX.rsp
-CMakeFiles/CLionSFML.dir/Stone.cpp.obj: ../Stone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CLionSFML.dir/Stone.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionSFML.dir\Stone.cpp.obj -c "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Stone.cpp"
+CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj: CMakeFiles/CLionSFML.dir/flags.make
+CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj: CMakeFiles/CLionSFML.dir/includes_CXX.rsp
+CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj: ../FallingObject/Stone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionSFML.dir\FallingObject\Stone.cpp.obj -c "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Stone.cpp"
 
-CMakeFiles/CLionSFML.dir/Stone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionSFML.dir/Stone.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Stone.cpp" > CMakeFiles\CLionSFML.dir\Stone.cpp.i
+CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Stone.cpp" > CMakeFiles\CLionSFML.dir\FallingObject\Stone.cpp.i
 
-CMakeFiles/CLionSFML.dir/Stone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/Stone.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Stone.cpp" -o CMakeFiles\CLionSFML.dir\Stone.cpp.s
+CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Stone.cpp" -o CMakeFiles\CLionSFML.dir\FallingObject\Stone.cpp.s
+
+CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj: CMakeFiles/CLionSFML.dir/flags.make
+CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj: CMakeFiles/CLionSFML.dir/includes_CXX.rsp
+CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj: ../FallingObject/Apple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionSFML.dir\FallingObject\Apple.cpp.obj -c "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Apple.cpp"
+
+CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Apple.cpp" > CMakeFiles\CLionSFML.dir\FallingObject\Apple.cpp.i
+
+CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Apple.cpp" -o CMakeFiles\CLionSFML.dir\FallingObject\Apple.cpp.s
+
+CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj: CMakeFiles/CLionSFML.dir/flags.make
+CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj: CMakeFiles/CLionSFML.dir/includes_CXX.rsp
+CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj: ../FallingObject/Coin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CLionSFML.dir\FallingObject\Coin.cpp.obj -c "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Coin.cpp"
+
+CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Coin.cpp" > CMakeFiles\CLionSFML.dir\FallingObject\Coin.cpp.i
+
+CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject\Coin.cpp" -o CMakeFiles\CLionSFML.dir\FallingObject\Coin.cpp.s
 
 # Object files for target CLionSFML
 CLionSFML_OBJECTS = \
 "CMakeFiles/CLionSFML.dir/main.cpp.obj" \
-"CMakeFiles/CLionSFML.dir/Bob.cpp.obj" \
+"CMakeFiles/CLionSFML.dir/NPC.cpp.obj" \
 "CMakeFiles/CLionSFML.dir/Engine.cpp.obj" \
 "CMakeFiles/CLionSFML.dir/Input.cpp.obj" \
 "CMakeFiles/CLionSFML.dir/Update.cpp.obj" \
 "CMakeFiles/CLionSFML.dir/Draw.cpp.obj" \
 "CMakeFiles/CLionSFML.dir/FallingObject.cpp.obj" \
-"CMakeFiles/CLionSFML.dir/Stone.cpp.obj"
+"CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj" \
+"CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj" \
+"CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj"
 
 # External object files for target CLionSFML
 CLionSFML_EXTERNAL_OBJECTS =
 
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/main.cpp.obj
-CLionSFML.exe: CMakeFiles/CLionSFML.dir/Bob.cpp.obj
+CLionSFML.exe: CMakeFiles/CLionSFML.dir/NPC.cpp.obj
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/Engine.cpp.obj
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/Input.cpp.obj
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/Update.cpp.obj
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/Draw.cpp.obj
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/FallingObject.cpp.obj
-CLionSFML.exe: CMakeFiles/CLionSFML.dir/Stone.cpp.obj
+CLionSFML.exe: CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj
+CLionSFML.exe: CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj
+CLionSFML.exe: CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/build.make
 CLionSFML.exe: C:/Libraries/SFML/lib/libsfml-audio-s.a
 CLionSFML.exe: C:/Libraries/SFML/lib/libsfml-graphics-s.a
@@ -212,7 +244,7 @@ CLionSFML.exe: C:/Libraries/SFML/lib/libogg.a
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/linklibs.rsp
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/objects1.rsp
 CLionSFML.exe: CMakeFiles/CLionSFML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CLionSFML.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable CLionSFML.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CLionSFML.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

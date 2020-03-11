@@ -84,12 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Bob.cpp">
-			<Option target="CLionSFML"/>
-		</Unit>
-		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Bob.h">
-			<Option target="CLionSFML"/>
-		</Unit>
 		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Draw.cpp">
 			<Option target="CLionSFML"/>
 		</Unit>
@@ -105,13 +99,31 @@
 		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.h">
 			<Option target="CLionSFML"/>
 		</Unit>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Apple.cpp">
+			<Option target="CLionSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Apple.h">
+			<Option target="CLionSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Coin.cpp">
+			<Option target="CLionSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Coin.h">
+			<Option target="CLionSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Stone.cpp">
+			<Option target="CLionSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Stone.h">
+			<Option target="CLionSFML"/>
+		</Unit>
 		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Input.cpp">
 			<Option target="CLionSFML"/>
 		</Unit>
-		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Stone.cpp">
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC.cpp">
 			<Option target="CLionSFML"/>
 		</Unit>
-		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Stone.h">
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC.h">
 			<Option target="CLionSFML"/>
 		</Unit>
 		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Update.cpp">

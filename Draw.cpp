@@ -1,22 +1,13 @@
 #include "Engine.h"
 
-void Engine::draw()
-{
-    //Background
-    m_Window.clear(Color::White);
-    // Draw the background
-    m_Window.draw(m_BackgroundSprite);
-
-    auto m_BobSprite = m_Bob.getSprite();
-    m_BobSprite.setScale(sf::Vector2f(approximation_x*0.5f, approximation_y*0.5f));
-    m_Window.draw(m_BobSprite);
-
-    if(isFallingObjectExist){
-        m_Window.draw(m_fallingObject.getSprite());
-    }
-
-    // Show everything we have just drawn
-    m_Window.display();
+void Engine::draw() {
+    Window.clear(Color::White);
+    Window.draw(BackgroundSprite);
+    auto BobSprite = npc.getSprite();
+    BobSprite.setScale(sf::Vector2f(approximation_x * 0.5f, approximation_y * 0.5f));
+    Window.draw(BobSprite);
+    Window.draw(fallingObject[0].getSprite());
+    Window.display();
 }
 
 Vector2f Engine::GetResolution() {
