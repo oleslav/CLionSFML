@@ -122,248 +122,248 @@ CLionSFML/fast:
 	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/build
 .PHONY : CLionSFML/fast
 
-Draw.obj: Draw.cpp.obj
+Engine/Engine.obj: Engine/Engine.cpp.obj
 
-.PHONY : Draw.obj
-
-# target to build an object file
-Draw.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Draw.cpp.obj
-.PHONY : Draw.cpp.obj
-
-Draw.i: Draw.cpp.i
-
-.PHONY : Draw.i
-
-# target to preprocess a source file
-Draw.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Draw.cpp.i
-.PHONY : Draw.cpp.i
-
-Draw.s: Draw.cpp.s
-
-.PHONY : Draw.s
-
-# target to generate assembly for a file
-Draw.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Draw.cpp.s
-.PHONY : Draw.cpp.s
-
-Engine.obj: Engine.cpp.obj
-
-.PHONY : Engine.obj
+.PHONY : Engine/Engine.obj
 
 # target to build an object file
-Engine.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine.cpp.obj
-.PHONY : Engine.cpp.obj
+Engine/Engine.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/Engine.cpp.obj
+.PHONY : Engine/Engine.cpp.obj
 
-Engine.i: Engine.cpp.i
+Engine/Engine.i: Engine/Engine.cpp.i
 
-.PHONY : Engine.i
+.PHONY : Engine/Engine.i
 
 # target to preprocess a source file
-Engine.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine.cpp.i
-.PHONY : Engine.cpp.i
+Engine/Engine.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/Engine.cpp.i
+.PHONY : Engine/Engine.cpp.i
 
-Engine.s: Engine.cpp.s
+Engine/Engine.s: Engine/Engine.cpp.s
 
-.PHONY : Engine.s
+.PHONY : Engine/Engine.s
 
 # target to generate assembly for a file
-Engine.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine.cpp.s
-.PHONY : Engine.cpp.s
+Engine/Engine.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/Engine.cpp.s
+.PHONY : Engine/Engine.cpp.s
 
-FallingObject.obj: FallingObject.cpp.obj
+Engine/EngineMethods/Draw.obj: Engine/EngineMethods/Draw.cpp.obj
 
-.PHONY : FallingObject.obj
+.PHONY : Engine/EngineMethods/Draw.obj
 
 # target to build an object file
-FallingObject.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject.cpp.obj
-.PHONY : FallingObject.cpp.obj
+Engine/EngineMethods/Draw.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Draw.cpp.obj
+.PHONY : Engine/EngineMethods/Draw.cpp.obj
 
-FallingObject.i: FallingObject.cpp.i
+Engine/EngineMethods/Draw.i: Engine/EngineMethods/Draw.cpp.i
 
-.PHONY : FallingObject.i
+.PHONY : Engine/EngineMethods/Draw.i
 
 # target to preprocess a source file
-FallingObject.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject.cpp.i
-.PHONY : FallingObject.cpp.i
+Engine/EngineMethods/Draw.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Draw.cpp.i
+.PHONY : Engine/EngineMethods/Draw.cpp.i
 
-FallingObject.s: FallingObject.cpp.s
+Engine/EngineMethods/Draw.s: Engine/EngineMethods/Draw.cpp.s
 
-.PHONY : FallingObject.s
+.PHONY : Engine/EngineMethods/Draw.s
 
 # target to generate assembly for a file
-FallingObject.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject.cpp.s
-.PHONY : FallingObject.cpp.s
+Engine/EngineMethods/Draw.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Draw.cpp.s
+.PHONY : Engine/EngineMethods/Draw.cpp.s
 
-FallingObject/Apple.obj: FallingObject/Apple.cpp.obj
+Engine/EngineMethods/Input.obj: Engine/EngineMethods/Input.cpp.obj
 
-.PHONY : FallingObject/Apple.obj
+.PHONY : Engine/EngineMethods/Input.obj
 
 # target to build an object file
-FallingObject/Apple.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj
-.PHONY : FallingObject/Apple.cpp.obj
+Engine/EngineMethods/Input.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Input.cpp.obj
+.PHONY : Engine/EngineMethods/Input.cpp.obj
 
-FallingObject/Apple.i: FallingObject/Apple.cpp.i
+Engine/EngineMethods/Input.i: Engine/EngineMethods/Input.cpp.i
 
-.PHONY : FallingObject/Apple.i
+.PHONY : Engine/EngineMethods/Input.i
 
 # target to preprocess a source file
-FallingObject/Apple.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.i
-.PHONY : FallingObject/Apple.cpp.i
+Engine/EngineMethods/Input.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Input.cpp.i
+.PHONY : Engine/EngineMethods/Input.cpp.i
 
-FallingObject/Apple.s: FallingObject/Apple.cpp.s
+Engine/EngineMethods/Input.s: Engine/EngineMethods/Input.cpp.s
 
-.PHONY : FallingObject/Apple.s
+.PHONY : Engine/EngineMethods/Input.s
 
 # target to generate assembly for a file
-FallingObject/Apple.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.s
-.PHONY : FallingObject/Apple.cpp.s
+Engine/EngineMethods/Input.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Input.cpp.s
+.PHONY : Engine/EngineMethods/Input.cpp.s
 
-FallingObject/Coin.obj: FallingObject/Coin.cpp.obj
+Engine/EngineMethods/Update.obj: Engine/EngineMethods/Update.cpp.obj
 
-.PHONY : FallingObject/Coin.obj
+.PHONY : Engine/EngineMethods/Update.obj
 
 # target to build an object file
-FallingObject/Coin.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj
-.PHONY : FallingObject/Coin.cpp.obj
+Engine/EngineMethods/Update.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Update.cpp.obj
+.PHONY : Engine/EngineMethods/Update.cpp.obj
 
-FallingObject/Coin.i: FallingObject/Coin.cpp.i
+Engine/EngineMethods/Update.i: Engine/EngineMethods/Update.cpp.i
 
-.PHONY : FallingObject/Coin.i
+.PHONY : Engine/EngineMethods/Update.i
 
 # target to preprocess a source file
-FallingObject/Coin.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.i
-.PHONY : FallingObject/Coin.cpp.i
+Engine/EngineMethods/Update.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Update.cpp.i
+.PHONY : Engine/EngineMethods/Update.cpp.i
 
-FallingObject/Coin.s: FallingObject/Coin.cpp.s
+Engine/EngineMethods/Update.s: Engine/EngineMethods/Update.cpp.s
 
-.PHONY : FallingObject/Coin.s
+.PHONY : Engine/EngineMethods/Update.s
 
 # target to generate assembly for a file
-FallingObject/Coin.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.s
-.PHONY : FallingObject/Coin.cpp.s
+Engine/EngineMethods/Update.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Update.cpp.s
+.PHONY : Engine/EngineMethods/Update.cpp.s
 
-FallingObject/Stone.obj: FallingObject/Stone.cpp.obj
+NPC/NPC.obj: NPC/NPC.cpp.obj
 
-.PHONY : FallingObject/Stone.obj
+.PHONY : NPC/NPC.obj
 
 # target to build an object file
-FallingObject/Stone.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj
-.PHONY : FallingObject/Stone.cpp.obj
+NPC/NPC.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/NPC/NPC.cpp.obj
+.PHONY : NPC/NPC.cpp.obj
 
-FallingObject/Stone.i: FallingObject/Stone.cpp.i
+NPC/NPC.i: NPC/NPC.cpp.i
 
-.PHONY : FallingObject/Stone.i
+.PHONY : NPC/NPC.i
 
 # target to preprocess a source file
-FallingObject/Stone.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.i
-.PHONY : FallingObject/Stone.cpp.i
+NPC/NPC.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/NPC/NPC.cpp.i
+.PHONY : NPC/NPC.cpp.i
 
-FallingObject/Stone.s: FallingObject/Stone.cpp.s
+NPC/NPC.s: NPC/NPC.cpp.s
 
-.PHONY : FallingObject/Stone.s
+.PHONY : NPC/NPC.s
 
 # target to generate assembly for a file
-FallingObject/Stone.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.s
-.PHONY : FallingObject/Stone.cpp.s
+NPC/NPC.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/NPC/NPC.cpp.s
+.PHONY : NPC/NPC.cpp.s
 
-Input.obj: Input.cpp.obj
+Object/FallingObject.obj: Object/FallingObject.cpp.obj
 
-.PHONY : Input.obj
+.PHONY : Object/FallingObject.obj
 
 # target to build an object file
-Input.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Input.cpp.obj
-.PHONY : Input.cpp.obj
+Object/FallingObject.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObject.cpp.obj
+.PHONY : Object/FallingObject.cpp.obj
 
-Input.i: Input.cpp.i
+Object/FallingObject.i: Object/FallingObject.cpp.i
 
-.PHONY : Input.i
+.PHONY : Object/FallingObject.i
 
 # target to preprocess a source file
-Input.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Input.cpp.i
-.PHONY : Input.cpp.i
+Object/FallingObject.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObject.cpp.i
+.PHONY : Object/FallingObject.cpp.i
 
-Input.s: Input.cpp.s
+Object/FallingObject.s: Object/FallingObject.cpp.s
 
-.PHONY : Input.s
+.PHONY : Object/FallingObject.s
 
 # target to generate assembly for a file
-Input.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Input.cpp.s
-.PHONY : Input.cpp.s
+Object/FallingObject.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObject.cpp.s
+.PHONY : Object/FallingObject.cpp.s
 
-NPC.obj: NPC.cpp.obj
+Object/FallingObjects/Apple.obj: Object/FallingObjects/Apple.cpp.obj
 
-.PHONY : NPC.obj
+.PHONY : Object/FallingObjects/Apple.obj
 
 # target to build an object file
-NPC.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/NPC.cpp.obj
-.PHONY : NPC.cpp.obj
+Object/FallingObjects/Apple.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Apple.cpp.obj
+.PHONY : Object/FallingObjects/Apple.cpp.obj
 
-NPC.i: NPC.cpp.i
+Object/FallingObjects/Apple.i: Object/FallingObjects/Apple.cpp.i
 
-.PHONY : NPC.i
+.PHONY : Object/FallingObjects/Apple.i
 
 # target to preprocess a source file
-NPC.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/NPC.cpp.i
-.PHONY : NPC.cpp.i
+Object/FallingObjects/Apple.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Apple.cpp.i
+.PHONY : Object/FallingObjects/Apple.cpp.i
 
-NPC.s: NPC.cpp.s
+Object/FallingObjects/Apple.s: Object/FallingObjects/Apple.cpp.s
 
-.PHONY : NPC.s
+.PHONY : Object/FallingObjects/Apple.s
 
 # target to generate assembly for a file
-NPC.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/NPC.cpp.s
-.PHONY : NPC.cpp.s
+Object/FallingObjects/Apple.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Apple.cpp.s
+.PHONY : Object/FallingObjects/Apple.cpp.s
 
-Update.obj: Update.cpp.obj
+Object/FallingObjects/Coin.obj: Object/FallingObjects/Coin.cpp.obj
 
-.PHONY : Update.obj
+.PHONY : Object/FallingObjects/Coin.obj
 
 # target to build an object file
-Update.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Update.cpp.obj
-.PHONY : Update.cpp.obj
+Object/FallingObjects/Coin.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Coin.cpp.obj
+.PHONY : Object/FallingObjects/Coin.cpp.obj
 
-Update.i: Update.cpp.i
+Object/FallingObjects/Coin.i: Object/FallingObjects/Coin.cpp.i
 
-.PHONY : Update.i
+.PHONY : Object/FallingObjects/Coin.i
 
 # target to preprocess a source file
-Update.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Update.cpp.i
-.PHONY : Update.cpp.i
+Object/FallingObjects/Coin.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Coin.cpp.i
+.PHONY : Object/FallingObjects/Coin.cpp.i
 
-Update.s: Update.cpp.s
+Object/FallingObjects/Coin.s: Object/FallingObjects/Coin.cpp.s
 
-.PHONY : Update.s
+.PHONY : Object/FallingObjects/Coin.s
 
 # target to generate assembly for a file
-Update.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Update.cpp.s
-.PHONY : Update.cpp.s
+Object/FallingObjects/Coin.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Coin.cpp.s
+.PHONY : Object/FallingObjects/Coin.cpp.s
+
+Object/FallingObjects/Stone.obj: Object/FallingObjects/Stone.cpp.obj
+
+.PHONY : Object/FallingObjects/Stone.obj
+
+# target to build an object file
+Object/FallingObjects/Stone.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Stone.cpp.obj
+.PHONY : Object/FallingObjects/Stone.cpp.obj
+
+Object/FallingObjects/Stone.i: Object/FallingObjects/Stone.cpp.i
+
+.PHONY : Object/FallingObjects/Stone.i
+
+# target to preprocess a source file
+Object/FallingObjects/Stone.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Stone.cpp.i
+.PHONY : Object/FallingObjects/Stone.cpp.i
+
+Object/FallingObjects/Stone.s: Object/FallingObjects/Stone.cpp.s
+
+.PHONY : Object/FallingObjects/Stone.s
+
+# target to generate assembly for a file
+Object/FallingObjects/Stone.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Object/FallingObjects/Stone.cpp.s
+.PHONY : Object/FallingObjects/Stone.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -401,33 +401,33 @@ help:
 	@echo ... edit_cache
 	@echo ... CLionSFML
 	@echo ... rebuild_cache
-	@echo ... Draw.obj
-	@echo ... Draw.i
-	@echo ... Draw.s
-	@echo ... Engine.obj
-	@echo ... Engine.i
-	@echo ... Engine.s
-	@echo ... FallingObject.obj
-	@echo ... FallingObject.i
-	@echo ... FallingObject.s
-	@echo ... FallingObject/Apple.obj
-	@echo ... FallingObject/Apple.i
-	@echo ... FallingObject/Apple.s
-	@echo ... FallingObject/Coin.obj
-	@echo ... FallingObject/Coin.i
-	@echo ... FallingObject/Coin.s
-	@echo ... FallingObject/Stone.obj
-	@echo ... FallingObject/Stone.i
-	@echo ... FallingObject/Stone.s
-	@echo ... Input.obj
-	@echo ... Input.i
-	@echo ... Input.s
-	@echo ... NPC.obj
-	@echo ... NPC.i
-	@echo ... NPC.s
-	@echo ... Update.obj
-	@echo ... Update.i
-	@echo ... Update.s
+	@echo ... Engine/Engine.obj
+	@echo ... Engine/Engine.i
+	@echo ... Engine/Engine.s
+	@echo ... Engine/EngineMethods/Draw.obj
+	@echo ... Engine/EngineMethods/Draw.i
+	@echo ... Engine/EngineMethods/Draw.s
+	@echo ... Engine/EngineMethods/Input.obj
+	@echo ... Engine/EngineMethods/Input.i
+	@echo ... Engine/EngineMethods/Input.s
+	@echo ... Engine/EngineMethods/Update.obj
+	@echo ... Engine/EngineMethods/Update.i
+	@echo ... Engine/EngineMethods/Update.s
+	@echo ... NPC/NPC.obj
+	@echo ... NPC/NPC.i
+	@echo ... NPC/NPC.s
+	@echo ... Object/FallingObject.obj
+	@echo ... Object/FallingObject.i
+	@echo ... Object/FallingObject.s
+	@echo ... Object/FallingObjects/Apple.obj
+	@echo ... Object/FallingObjects/Apple.i
+	@echo ... Object/FallingObjects/Apple.s
+	@echo ... Object/FallingObjects/Coin.obj
+	@echo ... Object/FallingObjects/Coin.i
+	@echo ... Object/FallingObjects/Coin.s
+	@echo ... Object/FallingObjects/Stone.obj
+	@echo ... Object/FallingObjects/Stone.i
+	@echo ... Object/FallingObjects/Stone.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

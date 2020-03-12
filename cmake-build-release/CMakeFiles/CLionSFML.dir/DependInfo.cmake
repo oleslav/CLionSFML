@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Draw.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Draw.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/FallingObject.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Apple.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/FallingObject/Apple.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Coin.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/FallingObject/Coin.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/FallingObject/Stone.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/FallingObject/Stone.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Input.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Input.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/NPC.cpp.obj"
-  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Update.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Update.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine/Engine.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Draw.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Draw.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Input.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Input.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Update.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Update.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC/NPC.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/NPC/NPC.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Object/FallingObject.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Object/FallingObject.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Object/FallingObjects/Apple.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Object/FallingObjects/Apple.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Object/FallingObjects/Coin.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Object/FallingObjects/Coin.cpp.obj"
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Object/FallingObjects/Stone.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Object/FallingObjects/Stone.cpp.obj"
   "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/main.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

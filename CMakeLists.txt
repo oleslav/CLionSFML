@@ -6,7 +6,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -static")
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp NPC.cpp NPC.h Engine.cpp Engine.h Input.cpp Update.cpp Draw.cpp FallingObject.cpp FallingObject.h FallingObject/Stone.cpp FallingObject/Stone.h FallingObject/Apple.cpp FallingObject/Apple.h FallingObject/Coin.cpp FallingObject/Coin.h)
+set(SOURCE_FILES main.cpp NPC/NPC.cpp NPC/NPC.h Engine/Engine.cpp Engine/Engine.h Engine/EngineMethods/Input.cpp Engine/EngineMethods/Update.cpp Engine/EngineMethods/Draw.cpp Object/FallingObject.cpp Object/FallingObject.h Object/FallingObjects/Stone.cpp Object/FallingObjects/Stone.h Object/FallingObjects/Apple.cpp Object/FallingObjects/Apple.h Object/FallingObjects/Coin.cpp Object/FallingObjects/Coin.h)
 
 if (CMAKE_BUILD_TYPE STREQUAL "Release")
     add_executable(${PROJECT_NAME} WIN32 ${SOURCE_FILES})

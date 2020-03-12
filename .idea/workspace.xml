@@ -21,7 +21,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
     <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
@@ -55,10 +55,11 @@
       <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Engine" />
+      <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Object" />
+      <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\NPC" />
+      <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\EngineMethods" />
       <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\FallingObject" />
-      <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media" />
-      <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release" />
-      <recent name="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-release\CMakeFiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,7 +81,7 @@
       <updated>1583688383920</updated>
       <workItem from="1583688386872" duration="3566000" />
       <workItem from="1583696325759" duration="30539000" />
-      <workItem from="1583870899368" duration="15139000" />
+      <workItem from="1583870899368" duration="27665000" />
     </task>
     <servers />
   </component>
@@ -111,22 +112,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="771" y="311" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583689744011" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583934518433">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584050166755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583934518433" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583934518433">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584050166755" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584050166755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583934518433" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583934518433">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584050166755" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584050166755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583934518433" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583934518433">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584050166755" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584050166755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583934518433" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584050166755" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583861343495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
