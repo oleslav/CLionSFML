@@ -20,3 +20,11 @@ void Apple::update(float elapsedTime) {
 void Apple::SetScale() {
     MySprite.setScale(sf::Vector2f(1./8,1./8));
 }
+
+int Apple::getHealth() {
+    return 1;
+}
+
+int Apple::getScore() {
+    return 0;
+}

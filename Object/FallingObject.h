@@ -14,14 +14,16 @@ protected:
     float TimeAnimation = 0;
     int n = 0, m = 0;
 
-    void SetStartPosition() override;
-
     void SetTexture(const String &location) override;
 
     void SetSpeed(float Speed) override;
 
 public:
+    void SetStartPosition() override;
+
     FallingObject();
+
+    virtual void update(float elapsedTime){};
 
     Sprite getSprite() override;
 };

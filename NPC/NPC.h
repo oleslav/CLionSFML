@@ -1,17 +1,20 @@
 #pragma once
+
 #include <SFML/Graphics.hpp>
 
 using namespace sf;
 
-class NPC
-{
+class NPC {
 private:
     Vector2f Position;
+    Texture texture;
     Sprite NPC_Sprite;
-    Texture Texture;
-    bool LeftPressed;
-    bool RightPressed;
-    float Speed;
+    bool LeftPressed{};
+    bool RightPressed{};
+    float Speed{};
+    void SetSpeed(float Speed);
+    void SetPosition(float x, float y);
+    void SetPressed();
 public:
     NPC();
     Sprite getSprite();
@@ -20,5 +23,4 @@ public:
     void stopLeft();
     void stopRight();
     void update(float elapsedTime);
-    Vector2f getPosition();
 };

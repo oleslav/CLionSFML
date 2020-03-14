@@ -640,12 +640,18 @@ SFML/Config.hpp
 
 C:/Libraries/SFML/include/SFML/Window/WindowStyle.hpp
 
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Collision.h
+SFML/Graphics.hpp
+-
+
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.cpp
 Engine.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.h
 
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.h
 SFML/Graphics.hpp
+-
+vector
 -
 ../NPC/NPC.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC/NPC.h
@@ -659,6 +665,8 @@ C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Object/FallingObjects/Coin.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Object/FallingObjects/Apple.h
 ../iEngine.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/iEngine.h
+../Collision.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Collision.h
 
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Draw.cpp
 ../Engine.h
@@ -667,12 +675,14 @@ C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Input.cpp
 ../Engine.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.h
+iostream
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/iostream
 
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Update.cpp
 ../Engine.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.h
-../../Object/FallingObject.h
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Object/FallingObject.h
+iostream
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/iostream
 
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC/NPC.cpp
 NPC.h

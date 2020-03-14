@@ -122,6 +122,33 @@ CLionSFML/fast:
 	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/build
 .PHONY : CLionSFML/fast
 
+Collision.obj: Collision.cpp.obj
+
+.PHONY : Collision.obj
+
+# target to build an object file
+Collision.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Collision.cpp.obj
+.PHONY : Collision.cpp.obj
+
+Collision.i: Collision.cpp.i
+
+.PHONY : Collision.i
+
+# target to preprocess a source file
+Collision.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Collision.cpp.i
+.PHONY : Collision.cpp.i
+
+Collision.s: Collision.cpp.s
+
+.PHONY : Collision.s
+
+# target to generate assembly for a file
+Collision.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/Collision.cpp.s
+.PHONY : Collision.cpp.s
+
 Engine/Engine.obj: Engine/Engine.cpp.obj
 
 .PHONY : Engine/Engine.obj
@@ -401,6 +428,9 @@ help:
 	@echo ... edit_cache
 	@echo ... CLionSFML
 	@echo ... rebuild_cache
+	@echo ... Collision.obj
+	@echo ... Collision.i
+	@echo ... Collision.s
 	@echo ... Engine/Engine.obj
 	@echo ... Engine/Engine.i
 	@echo ... Engine/Engine.s

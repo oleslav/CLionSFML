@@ -39,3 +39,11 @@ void Coin::update(float elapsedTime) {
         }
     }
 }
+
+int Coin::getHealth() {
+    return 0;
+}
+
+int Coin::getScore() {
+    return 1;
+}

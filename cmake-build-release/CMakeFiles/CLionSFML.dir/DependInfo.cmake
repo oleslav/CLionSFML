@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Collision.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Collision.cpp.obj"
   "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine/Engine.cpp.obj"
   "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Draw.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Draw.cpp.obj"
   "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Input.cpp" "C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-release/CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Input.cpp.obj"

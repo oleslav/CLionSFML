@@ -73,12 +73,12 @@ preinstall:
 CMakeFiles/CLionSFML.dir/all:
 	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/depend
 	$(MAKE) -f CMakeFiles\CLionSFML.dir\build.make CMakeFiles/CLionSFML.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target CLionSFML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target CLionSFML"
 .PHONY : CMakeFiles/CLionSFML.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CLionSFML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" 12
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CLionSFML.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/CLionSFML.dir/rule

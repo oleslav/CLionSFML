@@ -3,7 +3,7 @@
 
 Stone::Stone() {
     SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\stone.png)");
-    SetSpeed(10000);
+    SetSpeed(1000);
 }
 
 void Stone::update(float elapsedTime) {
@@ -40,4 +40,12 @@ void Stone::update(float elapsedTime) {
     }
     MySprite.setPosition(Position);
     MySprite.setTextureRect(IntRect(128 * n, 128 * m, 128, 128));
+}
+
+int Stone::getHealth() {
+    return -3;
+}
+
+int Stone::getScore() {
+    return 0;
 }

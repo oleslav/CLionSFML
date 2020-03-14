@@ -10,4 +10,6 @@ private:
 public:
     Apple();
     void update(float elapsedTime) override;
+    int getHealth() override;
+    int getScore() override;
 };

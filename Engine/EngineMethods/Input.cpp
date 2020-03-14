@@ -1,7 +1,9 @@
 #include "../Engine.h"
+#include "iostream"
 
 void Engine::input() {
     if (Keyboard::isKeyPressed(Keyboard::Escape)) {
+        std::cout << score << "\t" << health << std::endl;
         Window.close();
     }
     if (Keyboard::isKeyPressed(Keyboard::Left)) {

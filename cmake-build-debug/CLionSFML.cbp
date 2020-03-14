@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Collision.cpp">
+			<Option target="CLionSFML"/>
+		</Unit>
+		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Collision.h">
+			<Option target="CLionSFML"/>
+		</Unit>
 		<Unit filename="C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.cpp">
 			<Option target="CLionSFML"/>
 		</Unit>

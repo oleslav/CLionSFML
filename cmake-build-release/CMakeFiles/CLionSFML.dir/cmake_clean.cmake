@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CLionSFML.exe"
   "CLionSFML.exe.manifest"
   "CLionSFML.pdb"
+  "CMakeFiles/CLionSFML.dir/Collision.cpp.obj"
   "CMakeFiles/CLionSFML.dir/Engine/Engine.cpp.obj"
   "CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Draw.cpp.obj"
   "CMakeFiles/CLionSFML.dir/Engine/EngineMethods/Input.cpp.obj"

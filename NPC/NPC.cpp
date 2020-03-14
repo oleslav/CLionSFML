@@ -2,16 +2,11 @@
 #include "../Engine/Engine.h"
 
 NPC::NPC() {
-    LeftPressed = false;
-    RightPressed = false;
-    Speed = 1000;
-    // Associate a texture with the sprite
-    Texture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\bob.png)");
-    Texture.setSmooth(true);
-    // Associate the sprite with the texture
-    NPC_Sprite.setTexture(Texture);
-    Position.x = 427.5;
-    Position.y = 750;
+    SetSpeed(1000);
+    SetPosition(427.5, 750);
+    SetPressed();
+    texture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\bob.png)");
+    NPC_Sprite.setTexture(texture);
 }
 
 Sprite NPC::getSprite() {
@@ -47,6 +42,16 @@ void NPC::update(float elapsedTime) {
     NPC_Sprite.setPosition(Position);
 }
 
-Vector2f NPC::getPosition() {
-    return Position;
+void NPC::SetSpeed(float Value_Speed) {
+    this->Speed = Value_Speed;
+}
+
+void NPC::SetPosition(float x, float y) {
+    Position.x = x;
+    Position.y = y;
+}
+
+void NPC::SetPressed() {
+    LeftPressed = false;
+    RightPressed = false;
 }
