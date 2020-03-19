@@ -15,6 +15,7 @@ using namespace sf;
 class Engine
         : public iEngine {
 private:
+    bool isGameEnd;
     int score;
     int health;
     Font font;
@@ -27,8 +28,6 @@ private:
     Sprite HealthSprite;
 
     RenderWindow Window;
-    float approximation_x;
-    float approximation_y;
     Texture BackgroundTexture;
     Sprite BackgroundSprite;
     NPC npc;
@@ -40,6 +39,12 @@ private:
     void input() override;
     void update(float dtAsSeconds) override;
     void draw() override;
+
+    void fillVector();
+    void setTextureSettings();
+    void setFlexibleScale();
+    void LoadTexturesAndSetSprites();
+    void PrintScore();
 
     Engine();
     static Engine *_instance;

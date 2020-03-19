@@ -177,8 +177,8 @@ namespace Collision {
             OBB1.ProjectOntoAxis(Axe, MinOBB1, MaxOBB1);
             OBB2.ProjectOntoAxis(Axe, MinOBB2, MaxOBB2);
 
-            // ... and check whether the outermost projected points of both OBBs overlap.
-            // If this is not the case, the Separating Axis Theorem states that there can be no collision between the rectangles
+            // ... and chetck whether the outermost projected points of both OBBs overlap.
+            //            // If this is no the case, the Separating Axis Theorem states that there can be no collision between the rectangles
             if (!((MinOBB2 <= MaxOBB1) && (MaxOBB2 >= MinOBB1)))
                 return false;
         }

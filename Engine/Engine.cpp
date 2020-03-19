@@ -1,4 +1,6 @@
 #include "Engine.h"
+#include <windows.h>
+#include <iostream>
 
 Engine *Engine::_instance = nullptr;
 
@@ -10,41 +12,13 @@ Engine *Engine::Instance() {
 }
 
 Engine::Engine() {
-    if (!font.loadFromFile(R"(C:\Windows\Fonts\arial.ttf)")) {
-        exit(0);
-    }
+    isGameEnd = false;
     score = 0;
     health = 50;
-    fallingObject.push_back(&apple);
-    fallingObject.push_back(&coin);
-    fallingObject.push_back(&stone[0]);
-    fallingObject.push_back(&stone[1]);
-    fallingObject.push_back(&stone[2]);
-    fallingObject.push_back(&stone[3]);
-    health_text.setFillColor(Color::White);
-    score_text.setFillColor(Color::Black);
-    health_text.setStyle(sf::Text::Bold);
-    score_text.setStyle(sf::Text::Bold);
-    score_text.setPosition(Engine::GetResolution().x - 200.f, 118.f);
-    health_text.setPosition(50.f, 50.f);
-    health_text.setFont(font);
-    score_text.setFont(font);
-    Vector2f resolution = GetResolution();
-    Window.create(VideoMode(resolution.x, resolution.y),
-                  "Simple Game Engine",
-                  Style::Fullscreen);
-    BackgroundTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\back.png)");
-    HealthTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\life.png)");
-    ScoreTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\score.png)");
-    HealthSprite.setTexture(HealthTexture);
-
-    ScoreSprite.setTexture(ScoreTexture);
-    ScoreSprite.setScale(0.5f, 0.5f);
-    ScoreSprite.setPosition(Engine::GetResolution().x - 256.f, 0.f);
-    this->approximation_x = resolution.x / 1000;
-    this->approximation_y = resolution.y / 569;
-    BackgroundSprite.setTexture(BackgroundTexture);
-    BackgroundSprite.setScale(sf::Vector2f(approximation_x, approximation_y));
+    fillVector();
+    setTextureSettings();
+    LoadTexturesAndSetSprites();
+    setFlexibleScale();
 }
 
 void Engine::start() {
@@ -55,6 +29,12 @@ void Engine::start() {
         input();
         update(dtAsSeconds);
         draw();
+        if(isGameEnd){
+            std::cout << "Not found ";
+            PrintScore();
+            Sleep(3000);
+            Window.close();
+        }
     }
 }
 
@@ -63,4 +43,47 @@ Vector2f Engine::GetResolution() {
     resolution.x = VideoMode::getDesktopMode().width;
     resolution.y = VideoMode::getDesktopMode().height;
     return resolution;
+}
+
+void Engine::LoadTexturesAndSetSprites() {
+    font.loadFromFile(R"(C:\Windows\Fonts\arial.ttf)");
+    BackgroundTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\back.png)");
+    HealthTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\life.png)");
+    ScoreTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\score.png)");
+    HealthSprite.setTexture(HealthTexture);
+    ScoreSprite.setTexture(ScoreTexture);
+    BackgroundSprite.setTexture(BackgroundTexture);
+}
+
+void Engine::setTextureSettings() {
+    health_text.setFillColor(Color::White);
+    health_text.setCharacterSize(50.f * (Engine::GetResolution().x / 1920));
+    score_text.setCharacterSize(50.f * (Engine::GetResolution().x / 1920));
+    score_text.setFillColor(Color::Black);
+    health_text.setStyle(sf::Text::Bold);
+    score_text.setStyle(sf::Text::Bold);
+    score_text.setPosition(Engine::GetResolution().x - 200.f * (Engine::GetResolution().x / 1920), 118.f  * (Engine::GetResolution().y / 1280));
+    health_text.setPosition(70.f * (Engine::GetResolution().x / 1920), 70.f * (Engine::GetResolution().y / 1280));
+    health_text.setFont(font);
+    score_text.setFont(font);
+}
+
+void Engine::fillVector() {
+    fallingObject.push_back(&apple);
+    fallingObject.push_back(&coin);
+    fallingObject.push_back(&stone[0]);
+    fallingObject.push_back(&stone[1]);
+    fallingObject.push_back(&stone[2]);
+    fallingObject.push_back(&stone[3]);
+}
+
+void Engine::setFlexibleScale() {
+    Vector2f resolution = GetResolution();
+    Window.create(VideoMode(resolution.x, resolution.y),
+                  "Simple Game Engine",
+                  Style::Fullscreen);
+    ScoreSprite.setPosition(Engine::GetResolution().x - 256.f * (resolution.x / 1920), 0.f);
+    BackgroundSprite.setScale(Vector2f(resolution.x / 1000, resolution.y / 569));
+    HealthSprite.setScale(Vector2f(resolution.x / 1920, resolution.y / 1080));
+    ScoreSprite.setScale(Vector2f(resolution.x / 1920, resolution.y / 1080));
 }

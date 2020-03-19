@@ -3,7 +3,7 @@
 
 Stone::Stone() {
     SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\stone.png)");
-    SetSpeed(1000);
+    SetSpeed(500 * (Engine::GetResolution().y / 1280.f));
 }
 
 void Stone::update(float elapsedTime) {

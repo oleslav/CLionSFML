@@ -2,11 +2,13 @@
 #include "../Engine/Engine.h"
 
 NPC::NPC() {
-    SetSpeed(1000);
-    SetPosition(427.5, 750);
+    SetSpeed(1000 * (Engine::GetResolution().x / 1920.f));
+    SetPosition(428 * (Engine::GetResolution().x / 1920.f), 750 * (Engine::GetResolution().y / 1080.f));
     SetPressed();
     texture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\bob.png)");
     NPC_Sprite.setTexture(texture);
+    NPC_Sprite.setScale(
+            Vector2f(Engine::GetResolution().x / 1920.f, Engine::GetResolution().y / 1080.f));
 }
 
 Sprite NPC::getSprite() {
@@ -31,13 +33,13 @@ void NPC::stopRight() {
 
 
 void NPC::update(float elapsedTime) {
-    if (RightPressed &&  Position.x + 150 < Engine::GetResolution().x) {
+    if (RightPressed && Position.x + 128 < Engine::GetResolution().x) {
         Position.x += Speed * elapsedTime;
-        NPC_Sprite.setTextureRect(IntRect(150, 0, -150, 192));
+        NPC_Sprite.setTextureRect(IntRect(128, 0, -128, 164));
     }
     if (LeftPressed && Position.x >= 0) {
         Position.x -= Speed * elapsedTime;
-        NPC_Sprite.setTextureRect(IntRect(0, 0, 150, 192));
+        NPC_Sprite.setTextureRect(IntRect(0, 0, 128, 164));
     }
     NPC_Sprite.setPosition(Position);
 }

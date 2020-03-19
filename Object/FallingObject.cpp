@@ -4,8 +4,8 @@
 
 FallingObject::FallingObject() {
     srand(time(nullptr));
-    SetSpeed(400);
-    SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\stone.png)");
+    Vector2f resolution = Engine::GetResolution();
+    MySprite.setScale(Vector2f(resolution.x / 1920.f, resolution.y / 1080.f));
     SetStartPosition();
     TimeAnimation = 0;
 }
@@ -25,6 +25,6 @@ void FallingObject::SetStartPosition() {
     Position.y = -128;
 }
 
-void FallingObject::SetSpeed(float Speed) {
-    this->Speed = Speed;
+void FallingObject::SetSpeed(float ValueSpeed) {
+    this->Speed = ValueSpeed;
 }

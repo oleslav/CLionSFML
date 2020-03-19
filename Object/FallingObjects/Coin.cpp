@@ -2,22 +2,21 @@
 #include "../../Engine/Engine.h"
 
 Coin::Coin() {
-    srand( time(nullptr) );
-    SetSpeed(500);
+    srand(time(nullptr));
+    SetSpeed(1000 * (Engine::GetResolution().y / 1280.f));
     SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\coin.png)");
-    SetStartPosition();
     TimeAnimation = 0;
 }
 
 void Coin::update(float elapsedTime) {
-    if(Position.y <= Engine::GetResolution().y){
+    if (Position.y <= Engine::GetResolution().y) {
         Position.y += Speed * elapsedTime;
     } else {
         SetStartPosition();
     }
     TimeAnimation += elapsedTime;
-    if (TimeAnimation > 1./50) {
-        if(n == 0){
+    if (TimeAnimation > 1. / 50) {
+        if (n == 0) {
             TimeAnimation = 0;
             if (m < 9) {
                 m++;
@@ -25,8 +24,8 @@ void Coin::update(float elapsedTime) {
                 n = -1;
             }
             MySprite.setPosition(Position);
-            MySprite.setTextureRect(IntRect(0, 74 * m, 74, 74));
-        }else{
+            MySprite.setTextureRect(IntRect(0, 64 * m, 64, 64));
+        } else {
             TimeAnimation = 0;
             if (m > 0) {
                 m--;
@@ -35,7 +34,7 @@ void Coin::update(float elapsedTime) {
                 n = 0;
             }
             MySprite.setPosition(Position);
-            MySprite.setTextureRect(IntRect(74, 74 * m, - 74, 74));
+            MySprite.setTextureRect(IntRect(64, 64 * m, -64, 64));
         }
     }
 }

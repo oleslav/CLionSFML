@@ -3,8 +3,8 @@
 
 Apple::Apple() {
     SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\apple.png)");
-    SetSpeed(1000);
-    SetScale();
+    SetSpeed(1000 * (Engine::GetResolution().y / 1280.f));
+//    MySprite.setScale(Vector2f(1./2, 1./2));
 }
 
 void Apple::update(float elapsedTime) {
@@ -14,11 +14,7 @@ void Apple::update(float elapsedTime) {
         SetStartPosition();
     }
     MySprite.setPosition(Position);
-    MySprite.setTextureRect(IntRect(0, 0, 512, 512));
-}
-
-void Apple::SetScale() {
-    MySprite.setScale(sf::Vector2f(1./8,1./8));
+    MySprite.setTextureRect(IntRect(0, 0, 64, 64));
 }
 
 int Apple::getHealth() {
@@ -27,4 +23,8 @@ int Apple::getHealth() {
 
 int Apple::getScore() {
     return 0;
+}
+
+Sprite Apple::getSprite() {
+    return MySprite;
 }

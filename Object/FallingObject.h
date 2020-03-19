@@ -23,7 +23,5 @@ public:
 
     FallingObject();
 
-    virtual void update(float elapsedTime){};
-
     Sprite getSprite() override;
 };

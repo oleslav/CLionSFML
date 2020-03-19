@@ -5,11 +5,10 @@
 
 class Apple : public FallingObject
 {
-private:
-    void SetScale();
 public:
     Apple();
     void update(float elapsedTime) override;
     int getHealth() override;
     int getScore() override;
+    Sprite getSprite() override;
 };
