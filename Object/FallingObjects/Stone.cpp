@@ -2,7 +2,7 @@
 #include "../../Engine/Engine.h"
 
 Stone::Stone() {
-    SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\stone.png)");
+    SetTexture(R"(Media\stone.png)");
     SetSpeed(500 * (Engine::GetResolution().y / 1280.f));
 }
 

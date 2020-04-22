@@ -664,8 +664,10 @@ C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/iEngine.h
 ../Collision.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Collision.h
 
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/EngineMethods/Draw.cpp
-../Engine.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC/NPC.cpp
+NPC.h
+C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC/NPC.h
+../Engine/Engine.h
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/Engine/Engine.h
 
 C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/NPC/NPC.h

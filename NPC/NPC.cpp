@@ -5,7 +5,7 @@ NPC::NPC() {
     SetSpeed(1000 * (Engine::GetResolution().x / 1920.f));
     SetPosition(428 * (Engine::GetResolution().x / 1920.f), 750 * (Engine::GetResolution().y / 1080.f));
     SetPressed();
-    texture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\bob.png)");
+    texture.loadFromFile(R"(Media\bob.png)");
     NPC_Sprite.setTexture(texture);
     NPC_Sprite.setScale(
             Vector2f(Engine::GetResolution().x / 1920.f, Engine::GetResolution().y / 1080.f));

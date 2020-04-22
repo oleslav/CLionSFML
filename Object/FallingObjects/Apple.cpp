@@ -2,7 +2,7 @@
 #include "../../Engine/Engine.h"
 
 Apple::Apple() {
-    SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\apple.png)");
+    SetTexture(R"(Media\apple.png)");
     SetSpeed(1000 * (Engine::GetResolution().y / 1280.f));
 //    MySprite.setScale(Vector2f(1./2, 1./2));
 }

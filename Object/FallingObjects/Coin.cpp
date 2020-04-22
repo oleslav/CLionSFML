@@ -4,7 +4,7 @@
 Coin::Coin() {
     srand(time(nullptr));
     SetSpeed(1000 * (Engine::GetResolution().y / 1280.f));
-    SetTexture(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\coin.png)");
+    SetTexture(R"(Media\coin.png)");
     TimeAnimation = 0;
 }
 

@@ -30,7 +30,6 @@ void Engine::start() {
         update(dtAsSeconds);
         draw();
         if(isGameEnd){
-            std::cout << "Not found ";
             PrintScore();
             Sleep(3000);
             Window.close();
@@ -46,10 +45,10 @@ Vector2f Engine::GetResolution() {
 }
 
 void Engine::LoadTexturesAndSetSprites() {
-    font.loadFromFile(R"(C:\Windows\Fonts\arial.ttf)");
-    BackgroundTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\back.png)");
-    HealthTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\life.png)");
-    ScoreTexture.loadFromFile(R"(C:\Users\Oleslav Boychuk\CLionProjects\CLionSFML\Media\score.png)");
+    font.loadFromFile(R"(Fonts\arial.ttf)");
+    BackgroundTexture.loadFromFile(R"(Media\back.png)");
+    HealthTexture.loadFromFile(R"(Media\life.png)");
+    ScoreTexture.loadFromFile(R"(Media\score.png)");
     HealthSprite.setTexture(HealthTexture);
     ScoreSprite.setTexture(ScoreTexture);
     BackgroundSprite.setTexture(BackgroundTexture);
