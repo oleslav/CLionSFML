@@ -1,3 +1,0 @@
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-debug/CMakeFiles/CLionSFML.dir
-C:/Users/Oleslav Boychuk/CLionProjects/CLionSFML/cmake-build-debug/CMakeFiles/rebuild_cache.dir
